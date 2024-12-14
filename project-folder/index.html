@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Restaurant Page</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/7ir9FqI7Vg4kNO+hQ+8zgME4NYYNfNJ8MwW4n"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container container">
+          <input type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <li><a href="#about">About</a></li>
+            <li><a href="#food-menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <h1 class="logo">Restaurant</h1>
+        </div>
+      </nav>
+    </header>
+
+    <section class="showcase-area" id="showcase">
+      <div class="showcase-container">
+        <h2 class="main-title">Welcome to Our Restaurant</h2>
+        <p>Serving Deliciousness with Love</p>
+        <a href="#food-menu" class="btn btn-primary">Explore Menu</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h2>We Make Great Food</h2>
+          <p>
+            Our restaurant offers the finest cuisine using fresh ingredients
+            sourced locally. Enjoy a unique and tasty experience!
+          </p>
+        </div>
+        <div class="about-img">
+          <img
+            src="images/1.jpeg"
+            alt="About Us Image"
+          />
+        </div>
+      </div>
+    </section>
+
+   <section id="food-menu">
+  <h2 class="food-menu-heading">Our Menu</h2>
+  <div class="food-menu-container container">
+ 
+    <div class="food-menu-item">
+      <img
+        src="images/1.jpg"
+        alt="Grilled Steak"
+      />
+      <div class="food-description">
+        <h3 class="font-title">Grilled Steak</h3>
+        <p>Tender and juicy steak grilled to perfection.</p>
+        <p class="food-price">$25</p>
+      </div>
+    </div>
+
+       <div class="food-menu-item">
+      <img
+        src="images/2.jpg"
+        alt="Cheeseburger"
+      />
+      <div class="food-description">
+        <h3 class="font-title">Classic Cheeseburger</h3>
+        <p>Delicious beef patty with cheese, lettuce, and tomato.</p>
+        <p class="food-price">$12</p>
+      </div>
+    </div>
+
+  
+    <div class="food-menu-item">
+      <img
+        src="images/3.jpg"
+        alt="Pasta"
+      />
+      <div class="food-description">
+        <h3 class="font-title">Creamy Alfredo Pasta</h3>
+        <p>Rich and creamy Alfredo sauce over fettuccine pasta.</p>
+        <p class="food-price">$18</p>
+      </div>
+    </div>
+
+   
+    <div class="food-menu-item">
+      <img
+        src="images/4.jpg"
+        alt="Pizza"
+      />
+      <div class="food-description">
+        <h3 class="font-title">Pepperoni Pizza</h3>
+        <p>Classic pepperoni pizza with melted mozzarella cheese.</p>
+        <p class="food-price">$15</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="contact">
+      <div class="contact-container container">
+        <div class="contact-img">
+          <img
+            src="images/1.png"
+            alt="Contact Image"
+          />
+        </div>
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea rows="5" placeholder="Your Message"></textarea>
+          <a href="#" class="btn btn-primary">Send Message</a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <h2>&copy; <span id="autodate"></span> My Restaurant</h2>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
